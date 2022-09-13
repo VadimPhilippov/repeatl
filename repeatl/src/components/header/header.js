@@ -18,7 +18,7 @@ const Header = () => {
         />
         <Navbar.Collapse id='navbarScroll'>
           <Nav>
-            <NavLink eventKey='1' to='/'>
+            <NavLink eventKey='1' as={Link} to='/'>
               Главная
             </NavLink>
             <NavLink eventKey='2' to='/about'>
